@@ -1,0 +1,11 @@
+[project]
+name = "ihav-auto-improve-system"
+version = "0.1.0"
+description = "Record-based improve loop for AI pipelines, for Claude Code and Codex"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "hiendang7613"}]
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+{
+  "name": "ihav-auto-improve-system",
+  "displayName": "ihav-auto-improve-system",
+  "version": "0.1.0",
+  "description": "Improve AI pipelines with recorded evidence: frozen cases, end-to-end rounds, step replays, agent review and a keep, reject or inconclusive verdict.",
+  "author": {
+    "name": "hiendang7613"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-pipeline",
+    "prompt-improvement",
+    "evaluation",
+    "claude-code",
+    "codex"
+  ],
+  "homepage": "https://github.com/hiendang7613/ihav-auto-improve-system",
+  "repository": "https://github.com/hiendang7613/ihav-auto-improve-system",
+  "skills": "./claude/skills"
+}

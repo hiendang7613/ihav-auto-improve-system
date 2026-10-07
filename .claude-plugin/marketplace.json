@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "ihav-auto-improve-system",
+  "description": "Record-based improve loop for AI pipelines in Claude Code and Codex.",
+  "owner": {
+    "name": "hiendang7613"
+  },
+  "plugins": [
+    {
+      "name": "ihav-auto-improve-system",
+      "source": "./plugins/ihav-auto-improve-system",
+      "category": "productivity",
+      "description": "Frozen cases, end-to-end rounds and step replays, agent review, and a verdict bound to the candidate's identity."
+    }
+  ]
+}

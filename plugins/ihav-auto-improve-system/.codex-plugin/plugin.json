@@ -1,0 +1,35 @@
+{
+  "name": "ihav-auto-improve-system",
+  "version": "0.1.0",
+  "description": "Improve AI pipelines with recorded evidence: frozen cases, end-to-end rounds, step replays, agent review and a keep, reject or inconclusive verdict.",
+  "author": {
+    "name": "hiendang7613"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-pipeline",
+    "prompt-improvement",
+    "evaluation",
+    "claude-code",
+    "codex"
+  ],
+  "skills": "./core/",
+  "interface": {
+    "displayName": "ihav-auto-improve-system",
+    "shortDescription": "Improve an AI pipeline round by round with recorded evidence",
+    "longDescription": "Set up a project adapter, freeze test cases, run end-to-end rounds on a chosen model tier and replay single model calls with prompt or schema variants. You review each case; the runner records every call, its request and cost, rebuilds the reports and gives keep, reject or inconclusive only from valid paired comparisons. Unknown costs stay unknown, and a cheap run never falls back to production models.",
+    "developerName": "hiendang7613",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Set up an auto-improve loop for this pipeline.",
+      "Review the last round and record the judgments.",
+      "Verify whether the candidate run can be kept."
+    ],
+    "websiteURL": "https://github.com/hiendang7613/ihav-auto-improve-system"
+  },
+  "homepage": "https://github.com/hiendang7613/ihav-auto-improve-system",
+  "repository": "https://github.com/hiendang7613/ihav-auto-improve-system"
+}

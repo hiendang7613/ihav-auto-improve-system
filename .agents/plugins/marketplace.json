@@ -1,0 +1,19 @@
+{
+  "name": "ihav-auto-improve-system",
+  "interface": {
+    "displayName": "ihav-auto-improve-system"
+  },
+  "plugins": [
+    {
+      "name": "ihav-auto-improve-system",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ihav-auto-improve-system"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

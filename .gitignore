@@ -1,0 +1,8 @@
+# Runtime data created by ihav plugins
+.ihav_space/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.benchmarks/
