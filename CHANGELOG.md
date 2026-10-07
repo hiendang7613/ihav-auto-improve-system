@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 — 2026-10-08
 
 Milestones M2 and M3 of the approved plan, offline only.
 
